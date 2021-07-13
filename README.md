@@ -33,30 +33,6 @@ Default = Combined
 -	kmodes: (Integer)
     -	n_clusters = (Default = 5)
 
-
-#### **Sample format of Input data:**
--	Sample ‘Input.csv’ :
-
-
-| customer_code | age         | customer_seniority | income      | gender      | customer_status |
-| ----------- | ----------- | ---------------- | ----------- | ----------- | ------------- |
-| 816978      | 55          | 80               | 67804.53    | V           | 1             |
-| 154073      | 50          | 187              | 109185.8    | V           | 0             |
-| 739359      | 48          | 91               | 100030.8    | H           | 1             |
-
-
-#### **Sample ‘parameters.json’ :**
-{
-
-    "Clustering algorithm":"kmodes",
-    
-    "Segmentation type":"combined",
-    
-    "Cluster parameters": [10]
-    
-}
-
-
 **All the attributes must be one of below mentioned:**
 
 ***Note***: if other columns are added they will be not considered
